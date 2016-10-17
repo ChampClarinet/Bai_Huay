@@ -14,9 +14,11 @@ public class showDigits extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
 
         int digits = extras.getInt("Digits");
+
         TextView label = (TextView) findViewById(R.id.label);
         String s = getString(R.string.labelFront)+" "+Integer.toString(digits)+" "+getString(R.string.labelRear);
         label.setText(s);
+
         TextView result = (TextView) findViewById(R.id.result);
         String text = new Huay(digits).getResult();
         result.setText(text);
