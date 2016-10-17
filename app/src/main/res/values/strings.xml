@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Bai Huay</string>
+    <string name="twoDigit">เลขท้าย 2 ตัว</string>
+    <string name="threeDigit">เลขท้าย 3 ตัว</string>
 </resources>
