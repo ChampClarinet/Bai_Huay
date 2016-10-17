@@ -26,14 +26,14 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/twoDigit"
-            android:id="@+id/button"
+            android:id="@+id/twoDigits"
             android:layout_gravity="center" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/threeDigit"
-            android:id="@+id/button2"
+            android:id="@+id/threeDigits"
             android:layout_marginTop="81dp"
             android:layout_gravity="center" />
     </LinearLayout>
