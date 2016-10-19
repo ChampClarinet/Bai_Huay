@@ -4,4 +4,5 @@
     <string name="labelRear"> ตัว</string>
     <string name="twoDigits">เลขท้าย 2 ตัว</string>
     <string name="threeDigits">เลขท้าย 3 ตัว</string>
+    <string name="DefaultNumber">000</string>
 </resources>
