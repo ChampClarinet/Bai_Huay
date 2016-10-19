@@ -2,7 +2,8 @@ package com.example.clarinetmaster.baihuay;
 
 import java.util.Random;
 
-public class Huay {private String result = null;
+public class Huay {
+    private String result = null;
 
     public Huay(int digits){
         if(digits == 2) result = getRandomTwoDigits();
